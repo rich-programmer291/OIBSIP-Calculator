@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Calculator{
+    background: rgb(49, 48, 48);
+    width: 500px;
+    height: 500px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 4px 4px 30px rgba(49, 48, 48);
+    overflow: hidden;
+}
+
+form input{
+    background: black;
+    color: white;
+    text-align: right;
+    height: 75px;
+    width: 100%;
+    border-radius: 0 0 12px 12px;
+    border: none;
+    font-size: 3rem;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+.mini{
+    font-size: 2rem;
+    height: 60px;
+    text-align: left;
+    border-radius: 12px 12px 0 0 ;
+}
+
+.buttons{
+    display: flex;
+    padding: 22px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn-pink{
+    background: #ea7081;
+}
+
+.btn-golden{
+    background: rgb(248, 207, 43);
+}
+
+button{
+    flex: 0 0 18%;
+    margin: 5px 0;
+    border: 1px black;
+    width: 40px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 300;
+    border-radius: 1.9rem;
+    cursor: pointer;
+}
+
+.equal-btn{
+    background: rgb(70, 185, 70);
+    /* padding : 0 70px 0 56px; */
+}
+
+.special{
+    font-weight: 700;
+    font-size: 1.0rem;
+    border-radius: 1.6rem;
+    height: 46px;
+}
+
+.btn-clear{
+    color: #ea7081;
+}
