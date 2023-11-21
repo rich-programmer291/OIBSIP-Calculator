@@ -1,2 +1,2 @@
-# OIBSIP-Calculator
-A Calculator Project.
+# Calculator
+A basic Javascript project.
